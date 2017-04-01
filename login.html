@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/xue1.css" />
+		<script src="https://cdn.mailblast.io/assets/application-1dc44ba7fd1a690389dab71ab6b110f651b7a2dd0ab1105b094d863f4f60db0e.js"></script>
+
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>火箭登陆</title>
+
+		<!-- Bootstrap -->
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+		<div class="wrap">
+
+			<nav class="navbar navbar-inverse navbar-fixed-top" style="position: absolute;">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+						<a class="navbar-brand" href="#" style="color: white;margin-top: 10px;">Mailblast</a>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right nav1">
+							<li class="nav-link">
+								<a href="#" style="color: white;">Pricing</a>
+							</li>
+							<li>
+								<a href="#about" style="color: white;">Docs</a>
+							</li>
+							<li>
+								<a href="#contact" style="color: white;">Login</a>
+							</li>
+							<li>
+								<a href="#contact" style="color: white;">Signup</a>
+							</li>
+
+						</ul>
+
+					</div>
+					<!--/.nav-collapse -->
+				</div>
+			</nav>
+
+			<div class="dialog">
+				<div class="card">
+					<div class="card-header">
+						<h4>Sign in</h4>
+					</div>
+
+					<div class="card-block wo">
+						<div style="margin: 0 -15px;">
+
+						</div>
+						<form role="form" class="new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="JNQoGYjdqf50tf/FE/IIe8nUNC8M32BCCYfYirCT1+XXpEeJIynK+EcpqL2xqhcWCbzERI4QKgOkrVHyIbBmCw==">
+							<div class="form-group"><label class="form-control-label required" for="user_email">Email</label><input autofocus="autofocus" class="form-control" type="email" value="" name="user[email]" id="user_email"></div>
+							<div class="form-group"><label class="form-control-label required" for="user_password">Password</label><input class="form-control" type="password" name="user[password]" id="user_password"></div>
+
+							<div class="form-check"><label class="form-check-label" for="user_remember_me"><input name="user[remember_me]" type="hidden" value="0"><input class="form-check-input" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me"> Remember me</label></div>
+
+							<input type="submit" name="commit" value="Sign in" class="btn btn-primary" data-disable-with="Sign in" style="background: #1B6D85;">
+							<a class="btn btn-link text-warning " href="/users/password/new" style="float: right;color: #f0ad4e !important;">Forgot your password?</a>
+						</form>
+					</div>
+				</div>
+			</div>
+			<p class="text-center" style="color: #32A7B8;">Didn't receive confirmation instructions?</p>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<h5 style="color: #fff">Quick Links</h5>
+							<p>Api Docs</p>
+							<p>Pricing</p>
+
+						</div>
+						<div class="col-lg-3">
+							<h5 style="color: #fff">Quick Links</h5>
+							<p>Api Docs</p>
+							<p>Pricing</p>
+						</div>
+						<div class="col-lg-3">
+							<h5 style="color: #fff">Quick Links</h5>
+							<p>Api Docs</p>
+							<p>Pricing</p>
+						</div>
+						<div class="col-lg-3">
+							<h5 style="color: #fff">Quick Links</h5>
+							<p>Api Docs</p>
+							<p>Pricing</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
